@@ -125,6 +125,16 @@ h1, .h01 {
 		letter-spacing: -.07rem;
 	}
 }
+.menu {
+	font-size: 3.1rem;
+	font-family: "poppins-semibold";
+	letter-spacing: .25rem;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 19px;
+	font-weight: bold;
+}
+}
 h2, .h02 {
 	font-size: 2.4rem;
 	line-height: 1.25;
@@ -1097,11 +1107,12 @@ header .top-bar {
 	display: block;
 	background: #000000;
 	min-width: 220px;
-	min-height: 66px;
+	height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
 }
+
 header .logo {
 	float: left;
 	margin-left: 20px;
@@ -1116,11 +1127,14 @@ header .logo a {
 	border: none;
 	font: 0/0 a;
 	text-shadow: none;
-	color: transparent;
+	color: #888888;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
+	/*background: url("../images/logo.png") no-repeat center;*/
 	background-size: 92px 15px;
+}
+header .menu {
+
 }
 
 /**
@@ -1237,6 +1251,7 @@ header .logo a {
 	clear: both;
 	display: none;
 }
+
 .main-navigation > li {
 	display: block;
 	height: auto;
